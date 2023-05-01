@@ -84,7 +84,6 @@ return require('packer').startup(function(use)
     use({
         'tpope/vim-fugitive',
         requires = 'tpope/vim-rhubarb',
-        cmd = 'G',
     })
 
     -- vimtex
@@ -109,5 +108,7 @@ return require('packer').startup(function(use)
             require('user.plugins.nvim-tree')
         end,
     })
+
+    use('mbbill/undotree')
 
 end)

@@ -55,7 +55,3 @@ vim.keymap.set('x', '<A-k>', ":move '<-2<CR>gv-gv")
 -- Format the whole File with =
 -- vim.keymap.set('n', '=', vim.lsp.buf.formatting())
 
-
-
-
-
