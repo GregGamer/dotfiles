@@ -145,6 +145,7 @@ return require('packer').startup(function(use)
                     end,
                 },
                 {'williamboman/mason-lspconfig.nvim'}, -- Optional
+                {'kabouzeid/nvim-lspinstall'},     -- Optional
 
                 -- Autocompletion
                 {'hrsh7th/nvim-cmp'},     -- Required

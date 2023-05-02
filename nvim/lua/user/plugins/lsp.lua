@@ -38,5 +38,7 @@ cmp.setup({
     -- Navigate between snippet placeholder
     ['<C-f>'] = cmp_action.luasnip_jump_forward(),
     ['<C-b>'] = cmp_action.luasnip_jump_backward(),
+    ['<tab>'] = cmp.mapping.select_prev_item(cmp_select),
+    ['<Shift-tab>'] = cmp.mapping.select_prev_item(cmp_select),
   }
 })
