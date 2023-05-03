@@ -88,6 +88,8 @@ return require('packer').startup(function(use)
 
     -- vimtex
     use 'lervag/vimtex'
+    use 'xuhdev/vim-latex-live-preview'
+
 
     -- statusline
     use 'vim-airline/vim-airline'
